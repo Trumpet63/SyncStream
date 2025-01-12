@@ -1,0 +1,33 @@
+#containerDiv {
+    display: flex;
+    flex-direction: column;
+    width: 200px;
+    height: 40px;
+}
+
+#recordExportRow {
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    height: 100%;
+}
+
+#recordDiv {
+    width: 50%;
+    height: 100%;
+}
+
+#recordButton {
+    width: 100%;
+    height: 100%;
+}
+
+#exportDiv {
+    width: 50%;
+    height: 100%;
+}
+
+#exportButton {
+    width: 100%;
+    height: 100%;
+}

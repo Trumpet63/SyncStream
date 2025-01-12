@@ -1,0 +1,21 @@
+{
+    "name": "Commentary Sync Playback",
+    "description": "My extension",
+    "version": "1.0",
+    "manifest_version": 3,
+    "action": {
+        "default_popup": "popup.html",
+        "default_icon": "play_icon.png"
+    },
+    "permissions": ["scripting", "tabs"],
+    "host_permissions": ["*://*.youtube.com/*"],
+    "background": {
+        "service_worker": "background.js"
+    },
+    "content_scripts": [
+        {
+            "matches": ["*://*.youtube.com/*"],
+            "js": ["content.js"]
+        }
+    ]
+}
